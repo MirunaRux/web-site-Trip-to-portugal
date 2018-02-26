@@ -1,0 +1,314 @@
+@font-face {
+    font-family: Miruna;
+    src: url(Circus.ttf);
+}
+  
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 100px;
+	font-style: italic;
+	color: 	#e62e00;
+	font-family: Miruna;
+	font-size: 100px;
+}
+h2{
+	text-align: left;
+	margin-left: 40px;
+	color: white;
+}
+
+h3{
+	font-family: Miruna;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+
+.textName{
+	font-size: 30px;
+	margin:10px;
+	text-align: left;
+	color: white;
+}
+
+.textEmail {
+	font-size: 30px;
+	margin:10px;
+	text-align: left;
+	color: #ddd;
+	text-decoration: none;
+	font-family: italic;
+}
+
+.telephone{
+	font-size: 30px;
+	margin:10px;
+	text-align: left;
+	color: white;
+}
+.facebook{
+	font-size: 30px;
+	margin:10px;
+	text-align: left;
+	color: #ddd;
+	text-decoration: none;
+	font-family: italic;
+}
+
+img{
+	margin:0px;
+	height: 600px;
+	width: 400px;
+}
+
+p{
+	font-style: italic;
+	font-size: 20px;
+	float:left;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	margin: 10px;
+	width: 90%; 
+}
+
+
+h2:hover{
+	font-size: 40px;
+	opacity: 1;
+	background-color: #A3C1AD;
+	margin-top: 25px;
+}
+
+html, body {
+	min-width: 100%;
+	min-height: 100%;
+}
+
+body{
+	background-repeat: repeat-y;
+	background-position: center;
+	margin:0 ;
+	background-size: cover;
+
+}
+.steag{
+	background-image: url(flag.jpeg);
+	display: block;
+
+}
+
+.bgImg{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image:url(background.jpg);
+	background-position: center;
+	margin:0 ;
+	background-size: cover;
+
+	z-index:-1;
+}
+
+.cont{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100px;
+}
+.button{
+	display: block;
+	position: relative;
+	width: 25%;
+	height: 100px;
+	float: left;
+	background-color: 	#013220;
+	text-decoration: none; 
+	line-height: 100px;
+	vertical-align: middle;
+	text-align: center;
+    background-size: cover;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-bottom:50px;
+}
+
+a{
+	margin-top: 5px;
+	font-style: italic;
+	font-size: 20px;
+	color: white;
+	font-family: Miruna;
+}
+.button:hover{
+	font-size: 40px;
+	opacity: 0.8;
+	background-color: 	#013220;
+	margin-top: 5px;
+}
+.content{
+	display: block;
+	position: relative;
+	background-color: black;
+	opacity: 1;
+	width: 70%;
+	height: 100px;
+	background-position: center;
+}
+.content:hover{
+	opacity: 0.5;
+}
+
+p{
+float:left;
+font-family: arial;
+text-align: justify;
+margin:10px;
+margin-top:0px;
+}
+
+.columnLeft, .columnRight{
+
+	width: 44%;
+	height: auto;
+	min-height: 200px;
+	float: left;
+	padding: 2%;
+	display: block;
+	position: relative;
+	text-indent: 30px;
+}
+.columnMiruna, .columnAlisia{
+	width: 44%;
+	height: auto;
+	min-height: 200px;
+	float: left;
+	padding: 2%;
+	display: block;
+	position: relative;
+}
+
+.leftc, .rightc{
+
+	width: 44%;
+	height: auto;
+	min-height: 200px;
+	float: left;
+	padding: 2%;
+	display: block;
+	position: relative;
+	text-indent: 30px;
+}
+
+.imagine1{
+	width:400;
+	height: 300;
+	background-image: url(steag.jpg);
+}
+
+.imagine2{
+	width:400;
+	height: 300;
+	background-image: url(cock.png);
+}
+
+.titlemin{
+
+	min-width: 1200px;
+}
+
+.all{
+
+	min-width: 1200px;
+}
+.desen{
+	display: block;
+	margin: 10px;
+	background-image: url(desen1.jpg);
+}
+
+.descriere{
+	display: block;
+	text-align: justify;
+	text-indent: 10px;
+	font-size: 40px;
+	margin: 20px;
+}
+
+
+
+
+
+
+
+
+.mainContainer{
+	width: 960px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	background-color: #ddd;
+	background-size: cover;
+}
+
+.ourSlideshow{
+	overflow: hidden;
+	display: block;
+	width: 800px;
+	height: 500px;
+	border: 1px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.ourSlideshow .button{
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background-color: #fff;
+	z-index:20;
+	margin-top: -15px;
+	cursor: pointer;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+
+#btnLeft{
+	top: 50%;
+	left: 5px;
+	background-image:url(left.png);
+}
+#btnRight{
+	top: 50%;
+	right: 5px;
+	background-image: url(right.png);
+}
+.ourSlideshow .growContainer {
+	display: block;
+	
+	height: 100%;
+	position: relative;
+}
+
+.ourSlideshow .growContainer .slideItem {
+	width: 800px;
+	height: 500px;
+	display: block;
+	float: left;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.slideItem:nth-child(2n){
+	background-color: red;
+}
